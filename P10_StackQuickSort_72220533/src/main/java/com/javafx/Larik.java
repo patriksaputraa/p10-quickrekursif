@@ -60,27 +60,3 @@ public class Larik {
         return proses;
     }
 }
-// public void quickSortRekur(int kiri, int kanan) {
-// int i, j, pivot, sementara;
-// i = kiri;
-// j = kanan;
-// pivot = i;
-// while (i < j) {
-// while (data[j] >= data[pivot] && j > pivot)
-// j--; // bergerak dari kanan ke kiri
-// sementara = data[pivot];
-// data[pivot] = data[j];
-// data[j] = sementara;
-// pivot = j; // Pivot pindah ke j
-// while (data[i] < data[pivot] && i < pivot)
-// i++; // bergerak dari kiri ke kanan
-// sementara = data[pivot];
-// data[pivot] = data[i];
-// data[i] = sementara;
-// pivot = i; // Pivot pindah ke i
-// }
-// if (kiri < pivot - 1) // jika di kiri Pivot minimal ada 2 elemen
-// quickSortRekur(kiri, pivot - 1);
-// if (kanan > pivot + 1) // jika di kanan Pivot minimal ada 2 elemen
-// quickSortRekur(pivot + 1, kanan);
-// }
